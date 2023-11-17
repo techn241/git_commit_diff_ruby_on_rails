@@ -1,24 +1,39 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Git Commit Diff Ruby on Rails
 
-Things you may want to cover:
+This project is a Ruby on Rails application for comparing and displaying Git commit differences.
 
-* Ruby version
+## Prerequisites
 
-* System dependencies
+Make sure you have the following installed on your machine:
 
-* Configuration
+- [Ruby](https://www.ruby-lang.org/en/) (version 3.0.0p0 recommended)
+- [Rails](https://rubyonrails.org/) (version 7.0.8 recommended)
+- [Git](https://git-scm.com/)
 
-* Database creation
+## Getting Started
 
-* Database initialization
+Follow these steps to set up and run the project locally:
 
-* How to run the test suite
+1. **Clone the Repository:**
 
-* Services (job queues, cache servers, search engines, etc.)
+ $  git clone https://github.com/techn241/git_commit_diff_ruby_on_rails.git
 
-* Deployment instructions
+2. **Navigate to the Project Directory:**
 
-* ...
+ $  cd git_commit_diff_ruby_on_rails
+
+3. **Install Dependencies:**
+
+   Install the required gems using Bundler:
+
+ $  bundle install
+
+4. **Start the Rails Server:**
+
+Run the following command to start the Rails server:
+
+$  rails server
+
+The application will be accessible at http://localhost:3000
